@@ -32,3 +32,4 @@ A **Streamlit** app powered by **Gemini 2.0 Flash** via **Google Vertex AI**, de
 ```bash
 git clone https://github.com/yourusername/travel-itinerary-ai-bot.git
 cd travel-itinerary-ai-bot
+streamlit run app.py
