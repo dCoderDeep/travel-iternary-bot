@@ -14,8 +14,9 @@ from langchain_google_vertexai import ChatVertexAI, HarmCategory, HarmBlockThres
 # ---- Setup Vertex AI ---- #
 from google import genai
 
-PROJECT_ID = os.environ.get("GOOGLE_CLOUD_PROJECT", "GOOGLE_CLOUD_PROJECT")
-LOCATION = os.environ.get("GOOGLE_CLOUD_REGION", "GOOGLE_CLOUD_REGION")
+
+PROJECT_ID = os.environ.get("GOOGLE_CLOUD_PROJECT", "generativeai-coe")
+LOCATION = os.environ.get("GOOGLE_CLOUD_REGION", "global")
 
 client = genai.Client(vertexai=True, project=PROJECT_ID, location=LOCATION)
 MODEL_ID = "gemini-2.0-flash"
