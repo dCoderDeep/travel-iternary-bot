@@ -27,7 +27,7 @@ A **Streamlit** app powered by **Gemini 2.0 Flash** via **Google Vertex AI**, de
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repo
+### 1. Clone Repo and run the app.
 
 ```bash
 git clone https://github.com/yourusername/travel-itinerary-ai-bot.git
